@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>Proyecto final codo a codo</display-name>
+  <!-- src\main\java\com\oradores\controller\OradorController.java -->
+
+  <servlet>
+    <servlet-name>OradorController</servlet-name>
+    <servlet-class>com.oradores.controller.OradorController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>OradorController</servlet-name>
+    <url-pattern>/api/oradores</url-pattern>
+  </servlet-mapping>
 </web-app>
