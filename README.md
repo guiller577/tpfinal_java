@@ -15,14 +15,16 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 ---
 
 - **Nombre:** Gabriel Aguero
-- **Email:** email
-- **DNI:** 123456789
-- **LinkedIn:** []
+- **Email:** gabrielarnaldoaguero816@gmail.com
+- **DNI:** 22963844
+- **LinkedIn:** [https://www.linkedin.com/in/gabriel-ag%C3%BCero-147507199/]
 - **Roles en el Proyecto:** Creacion de paginas jsp de dashboard y detail utilizando bootstrap.
 
 ## Video Demostrativo
 
 [Video de Santiago Villanueva](https://youtu.be/4SlmgLamcws) - demostración del proyecto.
+
+[Video de Gabriel Aguero](#) - demostración del proyecto.
 
 ## Roles y Contribuciones
 
