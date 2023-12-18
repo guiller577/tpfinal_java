@@ -14,7 +14,7 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 
 ## Video Demostrativo
 
-[https://youtu.be/4SlmgLamcws](URL_del_video) - demostración del proyecto.
+[Video de Santiago Villanueva](https://youtu.be/4SlmgLamcws) - demostración del proyecto.
 
 ## Roles y Contribuciones
 
