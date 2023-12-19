@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.demo.diciembre17.DAO;
 
 import java.sql.*;
@@ -11,10 +7,6 @@ import java.util.List;
 import com.demo.diciembre17.conexion.Conexion;
 import com.demo.diciembre17.model.Orador;
 
-/**
- *
- * @author santi
- */
 public class OradorDAO {
 
   public void insertarOrador(Orador orador) {
@@ -27,7 +19,6 @@ public class OradorDAO {
       pstmt.executeUpdate();
     } catch (SQLException e) {
       e.printStackTrace();
-      // Manejar excepción
     }
   }
 
@@ -48,7 +39,6 @@ public class OradorDAO {
       }
     } catch (SQLException e) {
       e.printStackTrace();
-      // Manejar excepción
     }
     return oradores;
   }
@@ -62,7 +52,6 @@ public class OradorDAO {
       pstmt.executeUpdate();
     } catch (SQLException e) {
       e.printStackTrace();
-      // Manejar excepción
     }
     return orador;
   }
@@ -78,7 +67,6 @@ public class OradorDAO {
       pstmt.executeUpdate();
     } catch (SQLException e) {
       e.printStackTrace();
-      // Manejar excepción
     }
     return orador;
   }
@@ -98,7 +86,6 @@ public class OradorDAO {
       }
     } catch (SQLException e) {
       e.printStackTrace();
-      // Manejar excepción
     }
     return orador;
   }

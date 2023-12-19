@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.demo.diciembre17.model;
 
-/**
- *
- * @author santi
- */
 public class Orador {
   private int id;
   private String nombre;
@@ -55,12 +47,4 @@ public class Orador {
   public void setId(int id) {
     this.id = id;
   }
-
-  /*
-   * @Override
-   * public String toString() {
-   * return "Orador{" + "nombre=" + nombre + ", apellido=" + apellido + ", tema="
-   * + tema + '}';
-   * }
-   */
 }

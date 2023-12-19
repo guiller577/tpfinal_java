@@ -2,13 +2,7 @@
 pageEncoding="UTF-8"%> <%@page import="com.demo.diciembre17.model.Orador"%>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SV ~ Trabajo Integrador Front cambios</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
-  </head>
+  <jsp:include page="head.jsp" />
   <body
     data-bs-spy="scroll"
     data-bs-target="#navbar"
@@ -16,17 +10,8 @@ pageEncoding="UTF-8"%> <%@page import="com.demo.diciembre17.model.Orador"%>
     data-bs-smooth-scroll="true"
     data-bs-theme="dark"
   >
-    <nav id="navbar" class="navbar navbar-expand-xl fixed-top">
-      <div class="container">
-        <a class="navbar-brand me-0" href="#">
-          <img src="./assets/codoacodo.png" alt="logo de codo a codo" width="120" />
-          <span> Conf Bs As 2023 </span>
-        </a>
-        <div class="justify-content-end" id="navbarNav">
-          <button onclick="cambiarTema()" class="btn rounded-fill"><i id="icon" class="bi bi-moon-fill"></i></button>
-        </div>
-      </div>
-    </nav>
+    <jsp:include page="navbar.jsp" />
+
     <% Orador orador = (Orador) request.getAttribute("orador"); %>
 
     <main class="pt-5">

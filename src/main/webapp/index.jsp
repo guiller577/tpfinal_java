@@ -11,13 +11,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SV ~ Trabajo Integrador Front cambios</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
-  </head>
+  <jsp:include page="head.jsp" />
   <body
     data-bs-spy="scroll"
     data-bs-target="#navbar"
@@ -25,17 +19,7 @@
     data-bs-smooth-scroll="true"
     data-bs-theme="dark"
   >
-    <nav id="navbar" class="navbar navbar-expand-xl fixed-top">
-      <div class="container">
-        <a class="navbar-brand me-0" href="#">
-          <img src="./assets/codoacodo.png" alt="logo de codo a codo" width="120" />
-          <span> Conf Bs As 2023 </span>
-        </a>
-        <div class="justify-content-end" id="navbarNav">
-          <button onclick="cambiarTema()" class="btn rounded-fill"><i id="icon" class="bi bi-moon-fill"></i></button>
-        </div>
-      </div>
-    </nav>
+    <jsp:include page="navbar.jsp" />
     <main class="pt-5">
       <section class="mt-5" id="SerOrador">
         <div class="text-center">
@@ -92,19 +76,12 @@
               <td><%= orador.getApellido() %></td>
               <td><%= orador.getTema() %></td>
               <td>
-<!--                 
-                <button class="btn btn-danger" onclick="eliminar(this)">
-                  <i class="bi bi-trash"></i>
-                </button> -->
                 <form action="<%= request.getContextPath() %>/Eliminar" method="POST">
                   <input type="hidden" name="id" value="<%= orador.getId() %>">
                   <button class="btn btn-danger">
                     <i class="bi bi-trash"></i>
                   </button>
                 </form>
-              <!--   <a href="detail.html" class="btn btn-primary">
-                  <i class="bi bi-pencil"></i>
-                </a> -->
                 <a href="<%= request.getContextPath() %>/Editar?id=<%= orador.getId() %>" class="btn btn-primary">
                   <i class="bi bi-pencil"></i>
                 </a>

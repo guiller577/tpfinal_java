@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
+
 package com.demo.diciembre17.servlets;
 
 import java.io.IOException;
@@ -17,12 +14,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author santi
- */
-@WebServlet(name = "MiServlet", urlPatterns = { "" })
-public class MiServlet extends HttpServlet {
+@WebServlet(name = "ListadoOrador", urlPatterns = { "" })
+public class ListadoOrador extends HttpServlet {
     private OradorDAO oradorDAO = new OradorDAO();
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the
@@ -71,8 +64,8 @@ public class MiServlet extends HttpServlet {
 
         request.setAttribute("oradores", oradores);
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
-        dispatcher.forward(request, response);
+        request.getRequestDispatcher("/index.jsp")
+                .forward(request, response);
     }
 
 }
