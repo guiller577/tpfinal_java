@@ -7,11 +7,15 @@ const temaOscuro = () => {
 
 const temaClaro = () => {
   document.body.setAttribute("data-bs-theme", "light");
-  icon.setAttribute("class", "bi bi-moon-fill");
+  icon.setAttribute("class", "bi bi-moon-fill text-white");
 };
 
 const cambiarTema = () => {
-  document.body.getAttribute("data-bs-theme") === "light" ? temaOscuro() : temaClaro();
+  if (document.body.getAttribute("data-bs-theme") === "light") {
+    temaOscuro();
+  } else {
+    temaClaro();
+  }
 };
 
 const eliminar = (button) => {
@@ -20,3 +24,12 @@ const eliminar = (button) => {
     button.closest("tr").remove();
   }
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+  const theme = document.body.getAttribute("data-bs-theme");
+  if (theme === "light") {
+    temaClaro();
+  } else {
+    temaOscuro();
+  }
+});

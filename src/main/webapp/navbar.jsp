@@ -1,4 +1,4 @@
-<nav id="navbar" class="navbar navbar-expand-xl fixed-top">
+<nav id="navbar" class="navbar navbar-expand-xl fixed-top navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand me-0" href="#">
       <img src="./assets/codoacodo.png" alt="logo de codo a codo" width="120" />
