@@ -12,7 +12,7 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 - **LinkedIn:** [https://www.linkedin.com/in/santiagoarielv/]
 - **Roles en el Proyecto:** Creacion de paginas jsp de dashboard y detail utilizando bootstrap.
 
---
+<hr/>
 
 - **Nombre:** Gabriel Aguero
 - **Email:** gabrielarnaldoaguero816@gmail.com
