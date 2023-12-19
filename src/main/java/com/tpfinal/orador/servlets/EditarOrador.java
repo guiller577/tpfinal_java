@@ -1,9 +1,9 @@
-package com.demo.diciembre17.servlets;
+package com.tpfinal.orador.servlets;
 
 import java.io.IOException;
 
-import com.demo.diciembre17.DAO.OradorDAO;
-import com.demo.diciembre17.model.Orador;
+import com.tpfinal.orador.DAO.OradorDAO;
+import com.tpfinal.orador.model.Orador;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -35,6 +35,7 @@ public class EditarOrador extends HttpServlet {
         Orador orador = oradorDAO.obtenerOradorPorId(id);
 
         request.setAttribute("orador", orador);
+        request.setAttribute("titulo", "Editar Orador");
 
         request.getRequestDispatcher("detail.jsp").forward(request, response);
     }

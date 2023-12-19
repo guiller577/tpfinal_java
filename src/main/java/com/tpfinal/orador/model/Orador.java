@@ -1,4 +1,4 @@
-package com.demo.diciembre17.model;
+package com.tpfinal.orador.model;
 
 public class Orador {
   private int id;

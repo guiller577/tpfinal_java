@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.demo.diciembre17.pruebaConexion;
+package com.tpfinal.orador.pruebaConexion;
 
-import com.demo.diciembre17.DAO.OradorDAO;
-import com.demo.diciembre17.conexion.Conexion;
-import com.demo.diciembre17.model.Orador;
+import com.tpfinal.orador.DAO.OradorDAO;
+import com.tpfinal.orador.conexion.Conexion;
+import com.tpfinal.orador.model.Orador;
 import java.util.*;
 
 public class PruebaConexion {

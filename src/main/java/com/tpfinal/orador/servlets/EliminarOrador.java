@@ -1,6 +1,6 @@
-package com.demo.diciembre17.servlets;
+package com.tpfinal.orador.servlets;
 
-import com.demo.diciembre17.DAO.OradorDAO;
+import com.tpfinal.orador.DAO.OradorDAO;
 import java.io.IOException;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

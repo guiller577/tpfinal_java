@@ -1,11 +1,11 @@
-package com.demo.diciembre17.DAO;
+package com.tpfinal.orador.DAO;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.demo.diciembre17.conexion.Conexion;
-import com.demo.diciembre17.model.Orador;
+import com.tpfinal.orador.conexion.Conexion;
+import com.tpfinal.orador.model.Orador;
 
 public class OradorDAO {
 

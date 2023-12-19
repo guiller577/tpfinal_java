@@ -1,4 +1,4 @@
-package com.demo.diciembre17.conexion;
+package com.tpfinal.orador.conexion;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

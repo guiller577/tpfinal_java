@@ -1,11 +1,11 @@
 
-package com.demo.diciembre17.servlets;
+package com.tpfinal.orador.servlets;
 
 import java.io.IOException;
 import java.util.List;
 
-import com.demo.diciembre17.DAO.OradorDAO;
-import com.demo.diciembre17.model.Orador;
+import com.tpfinal.orador.DAO.OradorDAO;
+import com.tpfinal.orador.model.Orador;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -35,6 +35,7 @@ public class ListadoOrador extends HttpServlet {
         List<Orador> oradores = oradorDAO.obtenerOradores();
 
         request.setAttribute("oradores", oradores);
+        request.setAttribute("titulo", "Dashboard");
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
         dispatcher.forward(request, response);
