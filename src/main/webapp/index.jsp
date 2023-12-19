@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@page import="java.util.List"%>
-<%@page import="com.demo.diciembre17.model.Orador"%>
+<%@page import="com.tpfinal.orador.model.Orador"%>
 
 <!DOCTYPE html>
 <html lang="en">

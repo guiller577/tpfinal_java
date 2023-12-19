@@ -1,5 +1,5 @@
 <%-- Document : detail Created on : 18 dic 2023, 14:45:26 Author : santi --%> <%@page contentType="text/html"
-pageEncoding="UTF-8"%> <%@page import="com.demo.diciembre17.model.Orador"%>
+pageEncoding="UTF-8"%> <%@page import="com.tpfinal.orador.model.Orador"%>
 <!DOCTYPE html>
 <html lang="en">
   <jsp:include page="head.jsp" />
