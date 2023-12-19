@@ -31,7 +31,7 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 ---
 
 - **Nombre:** Guillermina Morel Bentancour
-- **Email:**
+- **Email:** guillemorel577@gmail.com
 - **DNI:** 27907341
 - **LinkedIn:** https://www.linkedin.com/in/guillermina-morel-bentancour-80033633/
 - **Roles en el Proyecto:** Conexion de backend con frontend, y agregado de funcionalidades.
