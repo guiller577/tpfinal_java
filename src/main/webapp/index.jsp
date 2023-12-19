@@ -68,7 +68,7 @@
               <td><%= orador.getNombre() %></td>
               <td><%= orador.getApellido() %></td>
               <td><%= orador.getTema() %></td>
-              <td>
+              <td class="d-flex gap-2">
                 <form action="<%= request.getContextPath() %>/Eliminar" method="POST">
                   <input type="hidden" name="id" value="<%= orador.getId() %>">
                   <button class="btn btn-danger">

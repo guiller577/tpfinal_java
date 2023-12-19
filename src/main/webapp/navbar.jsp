@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <nav id="navbar" class="navbar navbar-expand-xl fixed-top navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand me-0" href="#">
