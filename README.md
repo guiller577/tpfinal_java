@@ -1,5 +1,7 @@
 # CRUD de oradores
 
+## Grupo: ** unidos por tuki **
+
 ## Descripción
 
 una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión de oradores, utilizando el lenguaje de programación Java. La aplicación está diseñada para permitir a los usuarios administrar una base de datos de oradores, incluyendo sus datos personales y detalles profesionales.
