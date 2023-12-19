@@ -1,9 +1,3 @@
-<%-- 
-    Document   : nueva
-    Created on : 18 dic 2023, 00:10:54
-    Author     : santi
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@page import="java.util.List"%>
@@ -23,9 +17,8 @@
     <main class="pt-5">
       <section class="mt-5" id="SerOrador">
         <div class="text-center">
-          <small class="text-uppercase">conviértete en</small>
+          <small class="text-uppercase">Crear</small>
           <h2 class="text-uppercase">orador</h2>
-          <p>Anótate como orador para dar una <u>charla ignite.</u> Cuéntanos de qué quieres hablar!</p>
         </div>
         <form 
         
@@ -92,6 +85,7 @@
         </table>
       </section>
     </main>
+    <jsp:include page="footer.jsp" />
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
