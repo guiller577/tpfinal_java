@@ -48,7 +48,13 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 
 [Video de Santiago Villanueva](https://youtu.be/4SlmgLamcws) - demostración del proyecto.
 
-[Video de Gabriel Aguero](#) - demostración del proyecto.
+[Video de Gabriel Aguero](https://www.youtube.com/watch?v=C-EaJtnBeHw&ab_channel=gabrielViper) - demostración del proyecto.
+
+[Video de Agustin Anil](#) - demostración del proyecto.
+
+[Video de Guillermina Morel Bentancour](#) - demostración del proyecto.
+
+[Video de Victor Mariano Kalcich](#) - demostración del proyecto.
 
 ## Roles y Contribuciones
 
