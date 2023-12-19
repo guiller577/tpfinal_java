@@ -39,7 +39,7 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 ---
 
 - **Nombre:** Victor Mariano Kalcich
-- **Email:**
+- **Email:** vkalcich@gmail.com
 - **DNI:** 31191355
 - **LinkedIn:** https://www.linkedin.com/in/victor-mariano-kalcich-2bab5b1b/?originalSubdomain=ar
 - **Roles en el Proyecto:** Creacion de servlets y conexion con base de datos.
