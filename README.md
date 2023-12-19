@@ -27,7 +27,7 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 - **Nombre:** Agustin Anil
 - **Email:** anil.agustin06@gmail.com
 - **DNI:** 43474707
-- **LinkedIn:** [https://www.linkedin.com/in/agust%C3%ADn-anil?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]
+- **LinkedIn:** [https://www.linkedin.com/in/agust%C3%ADn-anil/]
 - **Roles en el Proyecto:** Conexion con base de datos y creacion de servlets.
 
 ---
