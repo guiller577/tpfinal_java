@@ -1,6 +1,6 @@
 # CRUD de oradores
 
-## Grupo: ** unidos por tuki **
+## Grupo: **unidos por tuki**
 
 ## Descripción
 
