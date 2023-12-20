@@ -52,7 +52,7 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 
 [Video de Gabriel Aguero](https://www.youtube.com/watch?v=C-EaJtnBeHw&ab_channel=gabrielViper) - demostración del proyecto.
 
-[Video de Agustin Anil](#) - demostración del proyecto.
+[Video de Agustin Anil](#https://youtu.be/yvgiy6nqcOk) - demostración del proyecto.
 
 [Video de Guillermina Morel Bentancour](#) - demostración del proyecto.
 
@@ -62,6 +62,7 @@ una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) centrada en la gestión
 
 - **Santiago Villanueva:** Desarrollador Front End - Encargado de crear las paginas de dashboard y creando conexion con Servlet.
 - **Gabriel Aguero:** Desarrollador Front End - Encargado de crear las paginas de dashboard y detail y creando conexion con Servlet.
+- **Agustin Anil:** Desarrollador Back End - Encargado de la logica DAO de orador y conexion a la base de datos.
 
 ## Tecnologías Utilizadas
 
